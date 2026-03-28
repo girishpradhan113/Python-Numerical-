@@ -1,0 +1,5 @@
+#Find simple interest
+P=int(input("Enter the principal amount"))
+R=int(input("Enter the rate of interest"))
+T=int(input("Enter the time period"))
+print("The simple interest is :",(P*R*T)*100)
