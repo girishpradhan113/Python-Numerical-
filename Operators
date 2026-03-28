@@ -1,0 +1,9 @@
+#Operators
+a=10;b=3
+print("addition of a",a,"and b ",b,"is:",a+b)
+print("subtraction of a",a,"and b ",b,"is:",a-b)
+print("multiplication of a",a,"and b ",b,"is:",a*b)
+print("division of a",a,"and b ",b,"is:",a/b)
+print("floor division of a",a,"and b ",b,"is:",a//b)
+print("moduli of a",a,"and b ",b,"is:",a%b)
+print("exponential of a",a,"and b ",b,"is:",a**b)
