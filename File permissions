@@ -1,0 +1,17 @@
+from os import write
+from os import write
+from os import write
+READ=0b100
+WRITE=0b010
+EXECUTE=0b001
+permissions=0b000
+print("Initial permissions:",bin(permissions))
+permissions=permissions|READ
+permissions=permissions|WRITE
+print("After adding READ and WRITE permissions:",bin(permissions))
+has_execute=permissions & EXECUTE
+print("Has EXECUTE permission?",bool(has_execute))
+permissions=permissions|EXECUTE
+print("After adding EXECUTE permission",bin(permissions))
+permissions=permissions & ~WRITE
+print("After removing WRITE permission",bin(permissions))
